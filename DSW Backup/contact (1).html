@@ -22,16 +22,17 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                            <li class="nav-item"><a class="nav-link" href="pricing.html">Register/Sign In</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="register.php">Register/Sign In</a></li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="dropdown-item" href="onlinewill.html">Online Will</a></li>
-                                    <li><a class="dropdown-item" href="deathcertificate.html">Death Certificate Application</a></li>
-                                    <li><a class="dropdown-item" href="funeralcover.html">Funeral Cover Payout</a></li>
+                                    <li><a class="dropdown-item" href="onlinewill.php">Online Will</a></li>
+                                    <li><a class="dropdown-item" href="deathcertificate.php">Death Certificate Application</a></li>
+                                    <li><a class="dropdown-item" href="funeralcover.php">Funeral Cover Payout</a></li>
+
                                 </ul>
                                 </ul>
                             </li>
@@ -53,16 +54,16 @@
                             <div class="col-lg-8 col-xl-6">
                                 <form action= "connection.php" method="post" >
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="inputName" type="text" name="name" placeholder="Enter your name..." />
-                                        <label for="inputName">Name</label>
+                                        <input class="form-control" id="inputName" type="text" name="fullname" placeholder="Enter your name..." />
+                                        <label for="inputName">Full name</label>
                                     </div>
                                     <div class="form-floating mb-3">
                                         <input class="form-control" id="inputEmail" type="email" name="email"placeholder="name@example.com" />
-                                        <label for="inputEmail">Email</label>
+                                        <label for="inputEmail">Email address</label>
                                     </div>
                                     <div class="form-floating mb-3">
-                                        <input class="form-control" id="inputPhone" type="tel" name="phonenumber" placeholder="0123456789" />
-                                        <label for="inputPhone">Phonenumber</label>
+                                        <input class="form-control" id="inputPhone" type="tel" name="phonenumber" placeholder="(123) 456-7890" />
+                                        <label for="inputPhone">Phone number</label>
                                     </div>
                                     <div class="form-floating mb-3">
                                         <textarea class="form-control" id="inputMessage" type="text" name="message" placeholder="Enter your message here..." style="height: 10rem"></textarea>
@@ -100,13 +101,11 @@
         <footer class="bg-dark py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2021</div></div>
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Bophelo Solutions 2021</div></div>
                     <div class="col-auto">
-                        <a class="link-light small" href="#!">Privacy</a>
+                        <a class="link-light small" href="privacy.html">Privacy</a>
                         <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Terms</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Contact</a>
+                        <a class="link-light small" href="contact.html">Contact</a>
                     </div>
                 </div>
             </div>

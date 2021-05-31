@@ -22,17 +22,17 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                            <li class="nav-item"><a class="nav-link" href="pricing.html">Register/Sign In</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="register.php">Register/Sign In</a></li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="dropdown-item" href="onlinewill.html">Online Will</a></li>
-                                    <li><a class="dropdown-item" href="deathcertificate.html">Death Certificate Application</a></li>
-                                    <li><a class="dropdown-item" href="funeralcover.html">Funeral Cover Payout</a></li>
-                                    <li><a class="dropdown-item" href="deathcertificate.html">Credit Profile</a></li>
+                                    <li><a class="dropdown-item" href="onlinewill.php">Online Will</a></li>
+                                    <li><a class="dropdown-item" href="deathcertificate.php">Death Certificate Application</a></li>
+                                    <li><a class="dropdown-item" href="funeralcover.php">Funeral Cover Payout</a></li>
+
                                 </ul>
                                 </ul>
                             </li>
@@ -80,7 +80,7 @@
                         <div class="col">
                             <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-chat-dots"></i></div>
                             <div class="h5 mb-2">Chat with us</div>
-                            <p class="text-muted mb-0">Chat live with one of our support specialists.</p>
+                            <p class="text-muted mb-0">Chat live on whatsapp on 087 170 3173.</p>
                         </div>
                         <div class="col">
                             <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-people"></i></div>
@@ -88,14 +88,10 @@
                             <p class="text-muted mb-0">Explore our different social media platforms and communicate with other users.</p>
                         </div>
                         <div class="col">
-                            <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-question-circle"></i></div>
-                            <div class="h5">Support center</div>
-                            <p class="text-muted mb-0">Browse FAQ's and support articles to find solutions.</p>
-                        </div>
-                        <div class="col">
                             <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-telephone"></i></div>
                             <div class="h5">Call us</div>
-                            <p class="text-muted mb-0">Call us during normal business hours at (555) 892-9403.</p>
+                            <p class="text-muted mb-0">Call us during normal business hours at (087) 6915642 .</p>
+
                         </div>
                     </div>
                 </div>
@@ -105,13 +101,11 @@
         <footer class="bg-dark py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2021</div></div>
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Bophelo Solutions 2021</div></div>
                     <div class="col-auto">
-                        <a class="link-light small" href="#!">Privacy</a>
+                        <a class="link-light small" href="privacy.html">Privacy</a>
                         <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Terms</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Contact</a>
+                        <a class="link-light small" href="contact.html">Contact</a>
                     </div>
                 </div>
             </div>

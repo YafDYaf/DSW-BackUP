@@ -22,17 +22,17 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                            <li class="nav-item"><a class="nav-link" href="login.html">Register/Sign In</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="register.php">Register/Sign In</a></li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="dropdown-item" href="onlinewill.html">Online Will</a></li>
-                                    <li><a class="dropdown-item" href="deathcertificate.html">Death Certificate Application</a></li>
-                                    <li><a class="dropdown-item" href="funeralcover.html">Funeral Cover Payout</a></li>
-                                    <li><a class="dropdown-item" href="deathcertificate.html">Credit Profile</a></li>
+                                    <li><a class="dropdown-item" href="onlinewill.php">Online Will</a></li>
+                                    <li><a class="dropdown-item" href="deathcertificate.php">Death Certificate Application</a></li>
+                                    <li><a class="dropdown-item" href="funeralcover.php">Funeral Cover Payout</a></li>
+
                                 </ul>
                                 </ul>
                             </li>
@@ -48,7 +48,7 @@
                             <div class="text-center my-5">
                                 <h1 class="fw-bolder mb-3">Our mission is to assist and make life easier for everyone.</h1>
                                 <p class="lead fw-normal text-muted mb-4">Death is one thing that is inevitable to all of us and the ontire process can be made more acceptable for your loved ones if you plan properly and ensure that you have everything together that your executors may require to complete the estate administration process as quickly and efficiently as possible..</p>
-                                <a class="btn btn-primary btn-lg" href="#scroll-target">Read our story</a>
+
                             </div>
                         </div>
                     </div>
@@ -139,7 +139,7 @@ how to obtain death certificates quicker and what documentation is need from tha
         <footer class="bg-dark py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2021</div></div>
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Bophelo Solutions 2021</div></div>
                     <div class="col-auto">
                         <a class="link-light small" href="privacy.html">Privacy</a>
                         <span class="text-white mx-1">&middot;</span>

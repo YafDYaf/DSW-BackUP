@@ -22,17 +22,17 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                            <li class="nav-item"><a class="nav-link" href="login.html">Register/Sign In</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="register.php">Register/Sign In</a></li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="dropdown-item" href="onlinewill.html">Online Will</a></li>
-                                    <li><a class="dropdown-item" href="deathcertificate.html">Death Certificate Application</a></li>
-                                    <li><a class="dropdown-item" href="funeralcover.html">Funeral Cover Payout</a></li>
-                                    <li><a class="dropdown-item" href="deathcertificate.html">Credit Profile</a></li>
+                                    <li><a class="dropdown-item" href="onlinewill.php">Online Will</a></li>
+                                    <li><a class="dropdown-item" href="deathcertificate.php">Death Certificate Application</a></li>
+                                    <li><a class="dropdown-item" href="funeralcover.php">Funeral Cover Payout</a></li>
+
                                 </ul>
                                 </ul>
                             </li>
@@ -40,43 +40,45 @@
                     </div>
                 </div>
             </nav>
-            <!-- Page Content-->
-            <section class="py-5">
+            <!-- Pricing section-->
+            <section class="bg-light py-5">
                 <div class="container px-5 my-5">
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-lg-6">
-                            <div class="text-center mb-5">
-                                <h1 class="fw-bolder">Funeral Cover Payouts</h1>
-                                <p class="lead fw-normal text-muted mb-0">Funeral cover is a type of insurance that pays a set amount of money in the case of a death, guaranteeing that the costs of a funeral are covered so that family members are not financially burdened during this terrible time.</p>
-                            </div>
-                        </div>
+                    <div class="text-center mb-5">
+                        <h1 class="fw-bolder">Bophelo Solutions</h1>
+                        <p class="lead fw-normal text-muted mb-0">Login</p>
                     </div>
-                    <div class="row gx-5">
-                        <div class="col-lg-6"><img class="img-fluid rounded-3 mb-5" src="img/funeralcover.jpg" alt="..." /></div>
-                        <div class="col-lg-6"><img class="img-fluid rounded-3 mb-5" src="img/funeralcover.jpg" alt="..." /></div>
+     <div class="main-register">
+
+                     </div>
+                    <div class="row px-3"> <label class="mb-1">
+                            <h6 class="mb-0 text-sm">Email Address</h6>
+                        </label> <input class="mb-4" type="text" name="email" placeholder="Enter a valid email address"> </div>
+                    <div class="row px-3"> <label class="mb-1">
+                            <h6 class="mb-0 text-sm">Password</h6>
+                        </label> <input type="password" name="password" placeholder="Enter password"> </div>
+                    <div class="row px-3 mb-4">
+                        <div class="custom-control custom-checkbox custom-control-inline"> <input id="chk1" type="checkbox" name="chk" class="custom-control-input"> <label for="chk1" class="custom-control-label text-sm">Remember me</label> </div> <a href="#" class="ml-auto mb-0 text-sm">Forgot Password?</a>
                     </div>
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-lg-6">
-                            <div class="text-center mb-5">
-                                <button class="signup"><a href="login.html">SIGN UP</button></a>
-                                <button class="login"><a href="login.html">LOG IN</button></a>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="row mb-4 px-3"> <small class="font-weight-bold">Don't have an account? <a href="register.html">Register</a></small> </div>
                 </div>
-            </section>
-        </main>
+            </div>
+        </div>
+        <div class="bg-blue py-4">
+            <div class="row px-3"> <small class="ml-4 ml-sm-5 mb-2">Copyright &copy; 2019. All rights reserved.</small>
+                <div class="social-contact ml-4 ml-sm-auto"> <span class="fa fa-facebook mr-4 text-sm"></span> <span class="fa fa-google-plus mr-4 text-sm"></span> <span class="fa fa-linkedin mr-4 text-sm"></span> <span class="fa fa-twitter mr-4 mr-sm-5 text-sm"></span> </div>
+            </div>
+        </div>
+    </div>
+</div>
         <!-- Footer-->
         <footer class="bg-dark py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2021</div></div>
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Bophelo Solutions 2021</div></div>
                     <div class="col-auto">
-                        <a class="link-light small" href="#!">Privacy</a>
+                        <a class="link-light small" href="privacy.html">Privacy</a>
                         <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Terms</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Contact</a>
+                        <a class="link-light small" href="contact.html">Contact</a>
                     </div>
                 </div>
             </div>
@@ -86,9 +88,10 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
+
       <style>
     button {
-      background-color: #212529;
+      background-color: #0d6efd;
       border: none;
       border-radius: 8px;
       color: white;
