@@ -22,17 +22,17 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                            <li class="nav-item"><a class="nav-link" href="login.html">Register/Sign In</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.php">About</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="register.php">Register/Sign In</a></li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="dropdown-item" href="onlinewill.html">Online Will</a></li>
-                                    <li><a class="dropdown-item" href="deathcertificate.html">Death Certificate Application</a></li>
-                                    <li><a class="dropdown-item" href="funeralcover.html">Funeral Cover Payout</a></li>
-                                    <li><a class="dropdown-item" href="deathcertificate.html">Credit Profile</a></li>
+                                    <li><a class="dropdown-item" href="onlinewill.php">Online Will</a></li>
+                                    <li><a class="dropdown-item" href="deathcertificate.php">Death Certificate Application</a></li>
+                                    <li><a class="dropdown-item" href="funeralcover.php">Funeral Cover Payout</a></li>
+
                                 </ul>
                                 </ul>
                             </li>
@@ -46,21 +46,21 @@
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-6">
                             <div class="text-center mb-5">
-                                <h1 class="fw-bolder">Online Will</h1>
-                                <p class="lead fw-normal text-muted mb-0">When you die, a will specifies how your property, possessions, money, and other assets will be dispersed, giving you peace of mind that your estate will be handled properly. Our online will is just what you need if you need a basic and straightforward will.</p>
+                                <h1 class="fw-bolder">Death Certificate Application</h1>
+                                <p class="lead fw-normal text-muted mb-0">A death certificate is a legal document produced by a medical practitioner that states when a person died, or a document issued by a government civil registration office that proclaims the date, location, and cause of a person's death as recorded in an official death register.</p>
                             </div>
                         </div>
                     </div>
                     <div class="row gx-5">
-                        <div class="col-lg-6"><img class="img-fluid rounded-3 mb-5" src="img/onlinewill.jpg" alt="..." /></div>
-                        <div class="col-lg-6"><img class="img-fluid rounded-3 mb-5" src="img/onlinewill.jpg" alt="..." /></div>
+                        <div class="col-lg-6"><img class="img-fluid rounded-3 mb-5" src="img/deathcertificate.jpg" alt="..." /></div>
+                        <div class="col-lg-6"><img class="img-fluid rounded-3 mb-5" src="img/deathcertificate.jpg" alt="..." /></div>
                     </div>
                     <div class="row gx-5 justify-content-center">
-                        <div class="col-lg-6">
 <div class="cognito">
-<script src="https://www.cognitoforms.com/s/NaU-V-zo60OyIKp8uhS-tQ"></script>
-<script>Cognito.load("forms", { id: "1" });</script>
+<script src="https://www.cognitoforms.com/s/X4gW0ZediU-qzJRQLlg8Kw"></script>
+<script>Cognito.load("forms", { id: "2" });</script>
 </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -70,13 +70,11 @@
         <footer class="bg-dark py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2021</div></div>
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Bophelo Solutions 2021</div></div>
                     <div class="col-auto">
-                        <a class="link-light small" href="#!">Privacy</a>
+                        <a class="link-light small" href="privacy.html">Privacy</a>
                         <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Terms</a>
-                        <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Contact</a>
+                        <a class="link-light small" href="contact.html">Contact</a>
                     </div>
                 </div>
             </div>
@@ -86,6 +84,7 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
+
       <style>
     button {
       background-color: #212529;
