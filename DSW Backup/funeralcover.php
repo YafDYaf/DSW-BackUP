@@ -12,7 +12,19 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-    </head>
+    </head><!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60b51cdede99a4282a1a97d0/1f71nhidd';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             <!-- Navigation-->
@@ -56,10 +68,10 @@
                         <div class="col-lg-6"><img class="img-fluid rounded-3 mb-5" src="img/funeralcover.jpg" alt="..." /></div>
                     </div>
                     <div class="row gx-5 justify-content-center">
-                        <div class="col-lg-6">
-                            <div class="text-center mb-5">
-                                <button class="signup"><a href="login.html">SIGN UP</button></a>
-                                <button class="login"><a href="login.html">LOG IN</button></a>
+<div class="cognito">
+<script src="https://www.cognitoforms.com/s/X4gW0ZediU-qzJRQLlg8Kw"></script>
+<script>Cognito.load("forms", { id: "4" });</script>
+</div>
                             </div>
                         </div>
                     </div>

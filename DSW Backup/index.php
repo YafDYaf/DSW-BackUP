@@ -13,6 +13,19 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60b51cdede99a4282a1a97d0/1f71nhidd';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
     <body class="d-flex flex-column h-100">
         <main class="flex-shrink-0">
             <!-- Navigation-->
@@ -42,8 +55,7 @@
                                 <h1 class="display-5 fw-bolder text-white mb-2">Bophelo Solutions - Let Help Us Help You</h1>
                                 <p class="lead fw-normal text-white-50 mb-4">Bophelo Solutions - Let Help Us Help You</p>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="register.html">Login</a>
-                                    <a class="btn btn-outline-light btn-lg px-4" href="about.html">Sign Up</a>
+                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="register.html">Login/Sign Up</a>
                                 </div>
                             </div>
                         </div>
@@ -195,24 +207,6 @@ Our main service is a one-stop shop which does everything to assist with funeral
                             </div>
                         </div>
                     </div>
-                    <!-- Call to action-->
-                    <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
-                        <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
-                            <div class="mb-4 mb-xl-0">
-                                <div class="fs-3 fw-bold text-white">New products, delivered to you.</div>
-                                <div class="text-white-50">Sign up for our newsletter for the latest updates.</div>
-                            </div>
-                            <div class="ms-xl-4">
-                                <div class="input-group mb-2">
-                                    <input class="form-control" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
-                                    <button class="btn btn-outline-light" id="button-newsletter" type="button">Sign up</button>
-                                </div>
-                                <div class="small text-white-50">We care about privacy, and will never share your data.</div>
-                            </div>
-                        </div>
-                    </aside>
-                </div>
-            </section>
         </main>
         <!-- Footer-->
         <footer class="bg-dark py-4 mt-auto">
